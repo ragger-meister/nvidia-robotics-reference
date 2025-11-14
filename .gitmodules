@@ -1,0 +1,39 @@
+[submodule "01_simulation-core/IsaacSim"]
+	path = 01_simulation-core/IsaacSim
+	url = https://github.com/isaac-sim/IsaacSim.git
+[submodule "01_simulation-core/IsaacLab"]
+	path = 01_simulation-core/IsaacLab
+	url = https://github.com/isaac-sim/IsaacLab.git
+[submodule "01_simulation-core/isaacsim-app-template"]
+	path = 01_simulation-core/isaacsim-app-template
+	url = https://github.com/isaac-sim/isaacsim-app-template.git
+[submodule "01_simulation-core/kit-app-template"]
+	path = 01_simulation-core/kit-app-template
+	url = https://github.com/NVIDIA-Omniverse/kit-app-template.git
+[submodule "02_perception-navigation/isaac_ros_common"]
+	path = 02_perception-navigation/isaac_ros_common
+	url = https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common.git
+[submodule "02_perception-navigation/isaac_ros_visual_slam"]
+	path = 02_perception-navigation/isaac_ros_visual_slam
+	url = https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam.git
+[submodule "02_perception-navigation/isaac_ros_nvblox"]
+	path = 02_perception-navigation/isaac_ros_nvblox
+	url = https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nvblox.git
+[submodule "02_perception-navigation/navigation2"]
+	path = 02_perception-navigation/navigation2
+	url = https://github.com/ros-planning/navigation2.git
+[submodule "02_perception-navigation/moveit2"]
+	path = 02_perception-navigation/moveit2
+	url = https://github.com/ros-planning/moveit2.git
+[submodule "03_robotics-frameworks/ros2"]
+	path = 03_robotics-frameworks/ros2
+	url = https://github.com/ros2/ros2.git
+[submodule "04_jetson-deployment/nav2-with-isaac-ros-gems"]
+	path = 04_jetson-deployment/nav2-with-isaac-ros-gems
+	url = https://github.com/NVIDIA-AI-IOT/nav2-with-isaac-ros-gems.git
+[submodule "04_jetson-deployment/jetson_isaac_ros_visual_slam_tutorial"]
+	path = 04_jetson-deployment/jetson_isaac_ros_visual_slam_tutorial
+	url = https://github.com/NVIDIA-AI-IOT/jetson_isaac_ros_visual_slam_tutorial.git
+[submodule "05_learning-research/IsaacGymEnvs"]
+	path = 05_learning-research/IsaacGymEnvs
+	url = https://github.com/isaac-sim/IsaacGymEnvs.git
