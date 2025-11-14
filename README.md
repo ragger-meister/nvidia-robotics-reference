@@ -44,6 +44,28 @@ A typical workflow looks like:
 4. Migrate validated pipelines to Jetson using the examples in `04_jetson-deployment/`.
 5. Consult `05_learning-research/` and `06_community-ecosystem/` for prior art, tutorials, and community projects.
 
+## Getting Started
+
+Clone this repository and initialize all submodules to reproduce the full stack layout:
+
+```bash
+path=null start=null
+# Clone the reference stack
+git clone https://github.com/ragger-meister/nvidia-robotics-reference.git
+cd nvidia-robotics-reference
+
+# Fetch all upstream projects as submodules
+git submodule update --init --recursive
+```
+
+For existing clones, you can update submodules at any time with:
+
+```bash
+path=null start=null
+git pull
+git submodule update --init --recursive
+```
+
 ## Git Submodules and Upstream Repositories
 
 The official NVIDIA and ROS repositories referenced in this stack can be added as Git submodules to keep a clear link to their upstream origins and versions. Each folder-level README specifies the recommended layout and exact upstream URLs.
